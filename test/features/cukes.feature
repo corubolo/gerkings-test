@@ -12,4 +12,4 @@ Feature: Cukes
     When I eat 1 "cukes"
     Then I am "sad"
     When I eat 1 "cukes"
-    Then I am "me h"
+    Then I am "meh"
