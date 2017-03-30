@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]]
   :plugins [[com.siili/lein-cucumber "1.0.7"]]
   :cucumber-feature-paths ["test/features/"]
+  :cucumber ["-p json"]
   :profiles
   {:dev
    {:dependencies [[com.siili/lein-cucumber "1.0.7"]]}}
