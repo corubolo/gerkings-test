@@ -7,6 +7,7 @@
   :plugins [[com.siili/lein-cucumber "1.0.7"]]
   :cucumber-feature-paths ["test/features/"]
   :cucumber ["-p json"]
+  :test-paths ["test/features" "test" "test/features/step_definitions"]
   :profiles
   {:dev
    {:dependencies [[com.siili/lein-cucumber "1.0.7"]]}}
