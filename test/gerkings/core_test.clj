@@ -5,5 +5,5 @@
   (:import [cucumber.api.cli Main]))
 
 (deftest run-cukes
-  (. cucumber.api.cli.Main (main (into-array ["--format" "pretty" "--glue" "test" "test/features"]))))
+  (. cucumber.api.cli.Main (main (into-array ["--plugin" "json" "-o" "cucumber.json" "test" "test/features"]))))
 
