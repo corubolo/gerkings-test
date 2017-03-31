@@ -1,14 +1,14 @@
 # gerkings
 
-A Clojure library designed to ... well, that part is up to you.
+This is a sample test project for running [https://cucumber.io/] test on lein projects in clojure. 
 
 ## Usage
 
-FIXME
+lein test will generate a cucumber.json file that can be parsed automatically in Jenkins. 
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Fabio Corubolo
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
